@@ -37,8 +37,8 @@ function Navbar() {
                 <Link to="/donate">Tree Plantation</Link>
             </div >
             <div id="user">
-                <i id="signup" className="fa-solid fa-user-plus fa-lg" to="/signup"></i>
-                <i id="login" className="fa-solid fa-arrow-right-to-bracket fa-lg" to="/login"></i>
+                <Link to="/signup"><i id="signup" className="fa-solid fa-user-plus fa-lg"></i></Link>
+                <Link to="/login"><i id="login" className="fa-solid fa-arrow-right-to-bracket fa-lg"></i></Link>
             </div>
         </nav >
     )
