@@ -13,7 +13,6 @@
     position: sticky;
     z-index: 100;
     box-shadow: 0px 2px 20px #00000026;
-    overflow: hidden;
 }
 
 #navbar::after {
@@ -22,6 +21,52 @@
     background: rgb(219 224 199);
     position: absolute;
     z-index: -1;
+}
+
+#ham{
+    padding: 0px 10px;
+    float: left;
+    overflow: hidden;
+    display: none;
+}
+
+#hamIcon{
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+#hamTabs{
+    display: none;
+    position: absolute;
+    background: rgb(219 224 199);
+    z-index: 101;
+    min-width: 160px;
+    padding: 20px;
+    box-shadow: 0px 2px 20px #00000026;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+}
+
+#close{
+    align-self:last baseline;
+    padding-right: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+#hamTabs h2{
+    padding: 15px;
+}
+
+#hamTabs a {
+    float: none;
+    display: block;
+    text-align: left;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(30, 48, 80);
 }
 
 #logo {
@@ -455,4 +500,63 @@ footer {
 .btn:hover {
     background-color: #a8e8af;
     color: rgb(30, 48, 80);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    #tabs {
+        display: none;
+    }
+
+    #ham {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #carouselExampleAutoplaying {
+        height: 70vh;
+        overflow: hidden;
+    }
+
+    .carousel-item img{
+        height: 60vh;
+    }
+
+    .card-container{
+        display: flex;
+        flex-direction: column;
+    }
 }
