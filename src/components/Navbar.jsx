@@ -8,7 +8,7 @@ function Navbar() {
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/locate">Nearby Facilities</Link>
-                <Link to="/awareness">Awareness</Link>
+                <Link to="/edu">Awareness</Link>
                 <Link to="/prediction">Prediction</Link>
                 <Link to="/recycle">Recycle</Link>
                 <Link to="/donate">Tree Plantation</Link>
