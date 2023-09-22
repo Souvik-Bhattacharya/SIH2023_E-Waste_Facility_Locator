@@ -547,12 +547,12 @@ footer {
 
 @media screen and (max-width: 1024px) {
     #carouselExampleAutoplaying {
-        height: 70vh;
+        height: 60vh;
         overflow: hidden;
     }
 
     .carousel-item img{
-        height: 60vh;
+        height: 50vh;
     }
 
     .card-container{
